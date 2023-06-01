@@ -1,8 +1,10 @@
 #header {
     height: 110px;
-    background-color: red;
+    background-color: aliceblue;
 }
 #container-text{
-    height: 35%;
-    background-color: aliceblue;
+    margin-left: 261px;
+}
+#set-address-text-pick{
+    margin-left: 864px;
 }
