@@ -1,3 +1,7 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}
 #header {
     height: 110px;
     background-color: aliceblue;
@@ -7,4 +11,35 @@
 }
 #set-address-text-pick{
     margin-left: 864px;
+}
+.level1
+{
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 30px;
+    background-color: transparent;
+    padding:5px;
+    margin: 0 auto;
+}
+/* .level1 a{
+    margin: 10px;
+    color: lightslategrey;
+    text-decoration: none;
+} */
+.level1:hover>ul
+{
+    display: block;
+    position: absolute;
+}
+li:hover
+{
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
 }
