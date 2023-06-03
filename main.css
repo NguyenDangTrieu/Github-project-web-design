@@ -17,16 +17,17 @@ body
     display: block;
     position: relative;
     float: left;
-    line-height: 30px;
+    line-height: 5rem;
     background-color: transparent;
-    padding:5px;
+    padding:0rem;
     margin: 0 auto;
 }
-/* .level1 a{
-    margin: 10px;
-    color: lightslategrey;
+.level1 a{
+    margin: 2rem;
     text-decoration: none;
-} */
+    color: grey;
+
+}
 .level1:hover>ul
 {
     display: block;
@@ -41,5 +42,5 @@ li:hover
 ul{
     list-style: none;
     margin: 0;
-    padding: 0px;
+    padding: 0rem;
 }
