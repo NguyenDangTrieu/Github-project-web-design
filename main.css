@@ -16,6 +16,7 @@ body
 }
 .level1
 {
+    font-family: 'Roboto Condensed';
     display: block;
     position: relative;
     float: left;
@@ -46,3 +47,60 @@ ul{
     margin: 0;
     padding: 0rem;
 }
+/* thanh tim kiem*/
+body > div {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .box {
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+   
+  input {
+    
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    transition: 0.8s ease;
+    color: rgb(24, 11, 11);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+   
+  input::placeholder {
+    color: rgb(19, 15, 10);
+  }
+   
+  a {
+    color: rgb(4, 0, 0);
+    text-align: center;
+    width: 60px;
+    font-size: 1rem;
+  }
+   
+  .box:hover input {
+    width: 10rem;
+    margin: 0 20px;
+    border-bottom: 2px solid rgb(176, 149, 149);
+    
+  }
+   
+  input:focus {
+    width: 200px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
