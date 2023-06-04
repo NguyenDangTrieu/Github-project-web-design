@@ -3,6 +3,8 @@ body
     font-family: 'Courier New', Courier, monospace;
 }
 #header {
+    display: flex;
+    justify-content: center;
     height: 110px;
     background-color: aliceblue;
 }
