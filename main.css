@@ -123,6 +123,10 @@ body > div {
   background-color: transparent;
   text-decoration: none;
   }
+  #logo{
+    font-size: 32px;
+    
+  }
 
   /* icon person */
   /* #icon-person {
