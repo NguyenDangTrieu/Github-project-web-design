@@ -7,6 +7,7 @@ body
     justify-content: center;
     height: 110px;
     background-color: aliceblue;
+    width: 100%;
 }
 #container-text{
     margin-left: 261px;
@@ -107,13 +108,14 @@ body > div {
 /* địa chỉ */
 
   #address:link {
+  float: left;
   background-color: transparent;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
   }
 
   #address:visited {
-    color: rgb(107, 158, 241);
+    color: grey;
     background-color: transparent;
     text-decoration: none;
   }
@@ -128,12 +130,34 @@ body > div {
     
   }
 
-  /* icon person */
-  /* #icon-person {
-    color: rgb(176, 149, 149);
-    font-size:32px;
-  }
-  #icon-person :hover {
-    color: red;
-    background-color: transparent;
-  } */
+  #address-logo-bag {
+    width:100%;
+    text-align:center;
+    height: 6rem;
+}
+
+#address {
+    float:left;
+    width:387px;
+    height: 20px;
+    text-align: left;
+}
+
+#logo {
+    display: inline-block;
+    margin:0 auto;
+    width:200px;
+    height: 20px;
+}
+
+#icon-person-bag {
+    float:right;
+    width:387px;
+    height: 20px;
+    text-align: right;
+    
+}
+.logo-bag-user{
+  margin-right: 1rem;
+}
+
