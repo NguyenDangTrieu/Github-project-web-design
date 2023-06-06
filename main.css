@@ -106,20 +106,30 @@ body > div {
   }
 /* địa chỉ */
 
-  a:link {
+  #address:link {
   background-color: transparent;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
   }
 
-  a:visited {
+  #address:visited {
     color: rgb(107, 158, 241);
     background-color: transparent;
     text-decoration: none;
   }
 
-  a:hover {
-  color: rgb(11, 3, 59);
+  #address:hover {
+  color: rgb(0, 0, 0);
   background-color: transparent;
   text-decoration: none;
   }
+
+  /* icon person */
+  /* #icon-person {
+    color: rgb(176, 149, 149);
+    font-size:32px;
+  }
+  #icon-person :hover {
+    color: red;
+    background-color: transparent;
+  } */
