@@ -164,7 +164,8 @@ body > div {
 /*------footer------------------*/
 #footer{
   height: 17rem;
-  background-color: rgb(148, 135, 135);
+  background-color: white;
+  box-shadow: 0px 8px 15px 10px rgba(0, 0, 0, 0.2);
 }
 .input-with-button {
   flex: 1;
@@ -250,7 +251,7 @@ ul.social-media-list li a.tiktok i:hover{
 .row
 {
   float: left;
-  width: 60%;
+  width: 65%; /*60%*/
   /* padding: 0 5px 10px 5px; */
 }
 .row a{
@@ -265,7 +266,7 @@ ul.social-media-list li a.tiktok i:hover{
 {
   width: 30%;
   float: left;
-  padding: 0 5px 10px 5px;
+  padding: 0 5px 10px 2px;
 
 }
 .boxfooter2
@@ -289,8 +290,8 @@ ul.social-media-list li a.tiktok i:hover{
 } */
 .footer_heading
 {
-  font-size: 1.4rem;
-  color: #000000;
+  font-size: 1rem;
+  color: rgb(13, 12, 12);
 }
 .footer_list
 {
