@@ -165,7 +165,7 @@ body > div {
 #footer{
   height: 17rem;
   background-color: white;
-  box-shadow: 0px 8px 15px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 15px 10px rgba(0, 0, 0, 0.2); 
 }
 .input-with-button {
   flex: 1;
@@ -191,6 +191,18 @@ body > div {
   margin-bottom: 10px;
   width: 100%;
 }
+
+.form-row input{
+  border: 1px solid grey;
+  border-radius: 3px;
+
+
+} 
+.form-row input::placeholder {
+  color: rgba(128, 128, 128, 0.538);
+  opacity: 1; /* Firefox */
+}
+
 .input-with-button input {
   flex: 1;
   width: 100%;
@@ -247,6 +259,7 @@ ul.social-media-list li a.tiktok i:hover{
   flex-wrap: wrap;
   
 } 
+
 /* */
 .row
 {
@@ -267,6 +280,7 @@ ul.social-media-list li a.tiktok i:hover{
   width: 30%;
   float: left;
   padding: 0 5px 10px 2px;
+  /* font-style: ; */
 
 }
 .boxfooter2
