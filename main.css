@@ -26,24 +26,24 @@ body
     padding:0rem;
     margin: 0 auto;
 }
-.level1 a{
+.level1 a{ /*menu header*/
     margin: 2rem;
     text-decoration: none;
     color: grey;
 
-}
-.level1:hover>ul
+} 
+.level1:hover>ul /*menu header*/
 {
     display: block;
     position: absolute;
+
 }
-li:hover
+#header li:hover /*menu header*/
 {
     font-weight: bold;
     text-decoration: underline;
-    color: black;
 }
-ul{
+ul{ /*menu header*/
     list-style: none;
     margin: 0;
     padding: 0rem;
@@ -68,7 +68,7 @@ body > div {
     background-color: rgb(255, 255, 255);
   }
    
-  .box input {
+  input {
     
     background: none;
     outline: none;
@@ -82,7 +82,7 @@ body > div {
     font-weight: 600;
   }
    
-  .box input::placeholder {
+  input::placeholder {
     color: rgb(19, 15, 10);
   }
    
@@ -164,7 +164,7 @@ body > div {
 /*------footer------------------*/
 #footer{
   height: 17rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(148, 135, 135);
 }
 .input-with-button {
   flex: 1;
@@ -244,7 +244,60 @@ ul.social-media-list li a.tiktok i:hover{
 .container-dangtrieu {
   display: block;
   flex-wrap: wrap;
+  
+} 
+/* */
+.row
+{
+  float: left;
+  width: 60%;
+  /* padding: 0 5px 10px 5px; */
 }
+.row a{
+    text-decoration: none;
+    color: grey;
+}
+.row li:hover{
+  font-weight: bold;
+}
+
+.boxfooter1
+{
+  width: 30%;
+  float: left;
+  padding: 0 5px 10px 5px;
+
+}
+.boxfooter2
+{
+  width: 30%;
+  float: left;
+  padding: 0 5px 10px 5px;
+
+}
+.boxfooter3
+{
+  width: 30%;
+  float: left;
+  padding: 0 5px 10px 5px;
+
+}
+/* .boxfooter4
+{
+  width: 20%;
+  float: left;
+} */
+.footer_heading
+{
+  font-size: 1.4rem;
+  color: #000000;
+}
+.footer_list
+{
+  padding-left: 0;
+  list-style: none;
+}
+
 /*====end==*/
 .endoffooter{
   height: 2rem;
