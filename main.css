@@ -68,7 +68,7 @@ body > div {
     background-color: rgb(255, 255, 255);
   }
    
-  input {
+  .box input {
     
     background: none;
     outline: none;
@@ -82,7 +82,7 @@ body > div {
     font-weight: 600;
   }
    
-  input::placeholder {
+  .box input::placeholder {
     color: rgb(19, 15, 10);
   }
    
@@ -100,7 +100,7 @@ body > div {
     
   }
    
-  input:focus {
+  .box input:focus {
     width: 200px;
     margin: 0 20px;
     border-bottom: 2px solid red;
@@ -161,3 +161,93 @@ body > div {
   margin-right: 1rem;
 }
 
+/*------footer------------------*/
+#footer{
+  height: 17rem;
+  background-color: rgb(255, 255, 255);
+}
+.input-with-button {
+  flex: 1;
+}
+
+.input-with-button input {
+  flex: 1;
+  padding: 5px;
+}
+
+.input-with-button button {
+  padding: 5px 10px;
+  background-color: #050505;
+  color: #ffffff;
+  border: none;
+}
+.input-with-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.input-with-button input {
+  flex: 1;
+  width: 100%;
+  padding: 5px;
+  height: 35px;
+}
+.input-with-button button {
+  width: 100%;
+  padding: 5px;
+  height: 35px;
+}
+ul.social-media-list{
+  display: flex;
+  padding: 0px 10px;
+}
+ul.social-media-list li{
+  margin: 0px 5px;
+}
+ul.social-media-list li {
+  background-color: #1a1212;
+}
+ul.social-media-list li a {
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  width: 21px;
+  height: 21px;
+  line-height: 2.5rem;
+  background: #f5f5f5;
+  display: block;
+}
+ul.social-media-list li a i{
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+ul.social-media-list li a.facebook i:hover{
+  background-color: #1877F2;
+  color: #ffffff;
+  border-radius: 4px;
+}
+ul.social-media-list li a.instagram i:hover{
+  background-color: #E4405F;
+  color: #ffffff;
+  border-radius: 4px;
+}
+ul.social-media-list li a.tiktok i:hover{
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.container-dangtrieu {
+  display: block;
+  flex-wrap: wrap;
+}
+/*====end==*/
+.endoffooter{
+  height: 2rem;
+  background-color: rgba(91, 91, 91, 1);
+  width: 100%;
+}
