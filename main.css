@@ -1,6 +1,8 @@
 body
 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
+    /* height: 100%; */
+    margin: 0;
 }
 #header {
     display: flex;
@@ -9,7 +11,37 @@ body
     background-color: aliceblue;
     width: 100%;
 }
-
+h1
+{
+  margin: 100px auto;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  max-width: 600px;
+  position: relative;
+}
+h1:before
+{
+  content: "";
+  display: block;
+  width: 130px;
+  height: 2px;
+  background: gray;
+  /* left: 0; */
+  top: 50%;
+  position: absolute;
+}
+h1:after
+{
+  content: "";
+  display: block;
+  width: 130px;
+  height: 2px;
+  background: gray;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
 #container-text{
     margin-left: 261px;
 }
@@ -161,6 +193,44 @@ body > div {
 .logo-bag-user{
   margin-right: 1rem;
 }
+/************new products***************/
+#middle
+{
+  width: 100%;
+  min-height: 500px;
+}
+.newpd
+{
+  float: left;
+  width: 53rem;
+  /* min-height: 300px; */
+  /* margin-top: 100px; */
+}
+.boxcenter
+{
+  width: 60%;
+  margin: 0 auto;
+}
+.boxpd
+{
+  float: left;
+  width: 11.3rem;
+  padding: 9.75px;
+}
+.boximg img
+{
+  width: 100%;
+  
+}
+.boxpd a
+{
+  color: rgb(4, 4, 63);
+  text-decoration: none;
+}
+.boxpd a:hover
+{
+  color: black;
+}
 
 /*------footer------------------*/
 #footer{
@@ -261,7 +331,7 @@ ul.social-media-list li a.tiktok i:hover{
   
 } 
 
-/* */
+/* footer */
 .row
 {
   float: left;
@@ -298,11 +368,7 @@ ul.social-media-list li a.tiktok i:hover{
   padding: 0 5px 10px 5px;
 
 }
-/* .boxfooter4
-{
-  width: 20%;
-  float: left;
-} */
+
 .footer_heading
 {
   font-size: 1rem;
