@@ -4,10 +4,10 @@ body
     /* height: 100%; */
     margin: 0;
 }
-/* #middle {
+#middle {
   height: 500px; 
   overflow-y: scroll;
-} */
+}
 #header {
     display: flex;
     justify-content: center;
