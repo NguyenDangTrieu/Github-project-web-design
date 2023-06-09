@@ -4,10 +4,10 @@ body
     /* height: 100%; */
     margin: 0;
 }
-#middle {
+/* #middle {
   height: 500px; 
   overflow-y: scroll;
-}
+} */
 #header {
     display: flex;
     justify-content: center;
@@ -23,6 +23,7 @@ h1
   font-size: 30px;
   max-width: 600px;
   position: relative;
+  letter-spacing: 5px;
 }
 h1:before
 {
@@ -41,7 +42,7 @@ h1:after
   float: right;
   content: "";
   display: block;
-  width: 130px;
+  width: 150px;
   height: 2px;
   background: gray;
   right: 0;
@@ -203,7 +204,8 @@ body > div {
 #middle
 {
   width: 100%;
-  min-height: 500px;
+  /* min-height: 500px; */
+  height: 100%;
 }
 .newpd
 {
@@ -237,6 +239,20 @@ body > div {
 .boxpd a:hover
 {
   color: black;
+}
+/************sản phẩm bán chyaj***************/
+#banchaynhat
+{
+  width: 100%;
+  /* min-height: 500px; */
+  height: 100%;
+}
+.hotsellpd
+{
+  float: left;
+  width: 53rem;
+  /* min-height: 300px; */
+  /* margin-top: 100px; */
 }
 
 /*------footer------------------*/
