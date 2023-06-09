@@ -23,6 +23,7 @@ h1
   font-size: 30px;
   max-width: 600px;
   position: relative;
+  letter-spacing: 5px;
 }
 h1:before
 {
@@ -41,7 +42,7 @@ h1:after
   float: right;
   content: "";
   display: block;
-  width: 130px;
+  width: 150px;
   height: 2px;
   background: gray;
   right: 0;
