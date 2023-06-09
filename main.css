@@ -28,15 +28,17 @@ h1:before
 {
   content: "";
   display: block;
-  width: 130px;
+  width: 150px;
   height: 2px;
   background: gray;
   /* left: 0; */
   top: 50%;
   position: absolute;
+  float: left;
 }
 h1:after
 {
+  float: right;
   content: "";
   display: block;
   width: 130px;
@@ -214,6 +216,7 @@ body > div {
 {
   width: 60%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 .boxpd
 {
@@ -228,7 +231,7 @@ body > div {
 }
 .boxpd a
 {
-  color: rgb(4, 4, 63);
+  color: rgb(117, 9, 138);
   text-decoration: none;
 }
 .boxpd a:hover
