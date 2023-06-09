@@ -15,6 +15,47 @@ body
     background-color: aliceblue;
     width: 100%;
 }
+/* ------tintuc */
+.tintucthongtin{
+  display: flex;
+}
+ul.list-tin-tuc{
+  display: flex;
+}
+ul.list-tin-tuc>li.anhnho img{
+  padding: 20px;
+  max-width: 216px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  
+}
+ul.list-tin-tuc{
+  list-style: none;
+}
+ul.list-tin-tuc li{
+  overflow: hidden;
+}
+.caption {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+ul.list-tin-tuc>li.anhlon img{
+  padding: 20px;
+  max-width: 461px;
+  
+  transition: 1.2s ease-in-out;
+}
+ul.list-tin-tuc li a img{
+  max-width: 100%;
+  display: block;
+
+}
+ul.list-tin-tuc li:hover img{
+  transform: scale(1.1);
+  opacity: 0.7;
+}
 h1
 {
   margin: 100px auto;
