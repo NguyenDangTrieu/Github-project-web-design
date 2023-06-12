@@ -15,6 +15,11 @@ body
     background-color: aliceblue;
     width: 100%;
 }
+#tintuc-image{
+  background-image: url(https://sneakerholicvietnam.vn/wp-content/uploads/2023/05/sale-cuoimua.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* ------tintuc */
 .tintucthongtin{
   display: flex;
@@ -36,15 +41,24 @@ ul.list-tin-tuc li{
   overflow: hidden;
 }
 .caption {
-  text-align: center;
-  margin-top: 10px;
+  margin-top: -125;
   font-weight: bold;
-  color: #000000;
+  color: #ffffff;
+  position: absolute;
+  margin-left: 30;
+  z-index: 999;
+}
+.caption1 {
+  text-align: center;
+  margin-top: -125px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  z-index: 999;
 }
 ul.list-tin-tuc>li.anhlon img{
   padding: 20px;
   max-width: 461px;
-  
   transition: 1.2s ease-in-out;
 }
 ul.list-tin-tuc li a img{
@@ -58,7 +72,8 @@ ul.list-tin-tuc li:hover img{
 }
 h1
 {
-  margin: 100px auto;
+  margin: 0 auto;
+  margin-top: 30px;
   color: black;
   text-align: center;
   font-size: 30px;
@@ -292,7 +307,7 @@ body > div {
 {
   float: left;
   width: 53rem;
-  /* min-height: 300px; */
+  min-height: 800px;
   /* margin-top: 100px; */
 }
 
