@@ -20,9 +20,16 @@ body
   background-repeat: no-repeat;
   background-size: cover;
 }
+h1#tintuctext{
+  padding-top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #555;
+  font-size: 1.25em;
+}
 /* ------tintuc */
 .tintucthongtin{
   display: flex;
+  height: 300px;
 }
 ul.list-tin-tuc{
   display: flex;
@@ -265,7 +272,7 @@ body > div {
 }
 .newpd
 {
-  margin: 0 auto;
+  float: left;
   width: 53rem;
   /* min-height: 300px; */
   /* margin-top: 100px; */
@@ -280,7 +287,7 @@ body > div {
 {
   float: left;
   width: 11.3rem;
-  padding:15px;
+  padding: 9.75px;
 }
 .boximg img
 {
@@ -305,7 +312,7 @@ body > div {
 }
 .hotsellpd
 {
-  margin: 0 auto;
+  float: left;
   width: 53rem;
   min-height: 800px;
   /* margin-top: 100px; */
