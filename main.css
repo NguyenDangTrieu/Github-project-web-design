@@ -286,8 +286,8 @@ body > div {
 .boxpd
 {
   float: left;
-  /* width: 11.3rem; */
-  width: 14rem;
+  width: 11.3rem;
+  /* width: 14rem; */
   padding: 9.75px;
 }
 .boximg img
