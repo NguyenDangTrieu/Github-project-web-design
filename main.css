@@ -286,7 +286,8 @@ body > div {
 .boxpd
 {
   float: left;
-  width: 11.3rem;
+  /* width: 11.3rem; */
+  width: 14rem;
   padding: 9.75px;
 }
 .boximg img
@@ -471,4 +472,17 @@ ul.social-media-list li a.tiktok i:hover{
   height: 2rem;
   background-color: rgba(91, 91, 91, 1);
   width: 100%;
+}
+
+/* trang chủ dép */
+nav {
+  float: left;
+  width: 450px;
+  height: 100%; /* only for demonstration, should be removed */
+  background: whitesmoke ;
+  padding: 20px;
+}
+
+.boxsp{
+  padding-top: 100px;
 }
