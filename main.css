@@ -287,6 +287,7 @@ body > div {
 {
   float: left;
   width: 11.3rem;
+  /* width: 14rem; */
   padding: 9.75px;
 }
 .boximg img
@@ -472,3 +473,5 @@ ul.social-media-list li a.tiktok i:hover{
   background-color: rgba(91, 91, 91, 1);
   width: 100%;
 }
+
+
