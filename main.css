@@ -474,15 +474,4 @@ ul.social-media-list li a.tiktok i:hover{
   width: 100%;
 }
 
-/* trang chủ dép */
-nav {
-  float: left;
-  width: 450px;
-  height: 100%; /* only for demonstration, should be removed */
-  background: whitesmoke ;
-  padding: 20px;
-}
 
-.boxsp{
-  padding-top: 100px;
-}
