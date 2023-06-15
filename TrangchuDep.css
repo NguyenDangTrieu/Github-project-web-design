@@ -10,3 +10,30 @@ nav {
   .boxsp{
     padding-top: 100px;
   }
+  .Size_Clothing {
+    width: 100%;
+    overflow: hidden;
+}
+
+.prdctfltr_checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prdctfltr_checkboxes > div {
+    flex-basis: 50%;
+}
+
+.prdctfltr_checkboxes label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.prdctfltr_checkboxes input[type="checkbox"] {
+    margin-right: 5px;
+    
+}
+i.fa-regular.fa-square-check:hover{
+    color: red;
+}
+    
