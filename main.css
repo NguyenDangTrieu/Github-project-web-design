@@ -274,6 +274,7 @@ body > div {
 {
   float: left;
   width: 53rem;
+  margin-left: 4rem;
   /* min-height: 300px; */
   /* margin-top: 100px; */
 }
@@ -316,6 +317,7 @@ body > div {
   float: left;
   width: 53rem;
   min-height: 800px;
+  margin-left: 4rem;
   /* margin-top: 100px; */
 }
 
