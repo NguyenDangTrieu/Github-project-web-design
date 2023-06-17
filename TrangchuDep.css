@@ -4,8 +4,10 @@ nav {
     float: left;
     width: 15rem;
     height: 830px; /* only for demonstration, should be removed */
-    background: whitesmoke ;
+    background: white ;
     padding: 20px;
+    margin-left: 12rem;
+    box-shadow: rgba(206, 192, 192, 0.2) 0px 8px 15px 10px;
   }
   
   .boxsp{
@@ -96,6 +98,11 @@ nav {
 .prdctfltr_checkboxes input[type="checkbox"] {
     margin-right: 5px;
     
+}
+.newpd {
+  float: left;
+  margin-left: 8rem;
+  width: 53rem;
 }
 
 i.fa-regular.fa-square-check:hover{
