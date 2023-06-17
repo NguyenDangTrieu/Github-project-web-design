@@ -1,0 +1,9 @@
+.body-detail,.container,.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+.body-detail,.container,.row,.col-6
+{
+    flex: 1;
+}
