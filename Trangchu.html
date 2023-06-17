@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Trang chủ - TNT Store</title>
+    <!-- Thanh tim kiem js -->
+    <script src="JsforWeb.js"></script>
+      <!-- thanh tim kiem js -->
 </head>
 <body>
     <div id="address-logo-bag"> 
@@ -43,9 +46,10 @@
             </ul>
         </div>
         <div class="box">
-            <input type="text" placeholder="Tìm kiếm ở đây">
-            <a><i class="fa-solid fa-magnifying-glass"></i></a>
-        </div>
+            <input type="text" placeholder="Tìm kiếm ở đây" onkeypress="handleKeyPress(event)">
+            <a onclick="search()"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+        
     </div id="body_of_web">
     
         <div id="tintuc-image" > </div>
