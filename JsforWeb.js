@@ -25,7 +25,7 @@
     
 function handleKeyPress(event) {
     if (event.key === "Enter") {
-    event.preventDefault(); 
-    search();
+        event.preventDefault(); 
+        search();
     }
 }
