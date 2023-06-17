@@ -7,3 +7,53 @@
 {
     flex: 1;
 }
+
+.detail-pd-pic{
+width: 550px;
+float: left;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.detail-pd-info{
+    width: 550px;
+    float: left;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* .pd-name{
+    color: #666;
+} */
+.pd-size{
+    border: 2px solid #ececec;
+    border-radius: 10px;
+    text-align: center ;
+    padding :10px,10px;
+    width:3rem;
+    height: 2rem;
+    
+}
+.pd-size:hover{
+    border-color: #666;
+}
+.themvaogiohang{
+    background-color: #666666a0;
+    border-radius: 25px;
+    text-align: center ;
+    padding :10px,10px;
+    width:10rem;
+    height: 3rem;
+}
+.muangay{
+    background-color: #8ed1fc;
+    border-radius: 25px;
+    text-align: center ;
+    padding :10px,10px;
+    width:7rem;
+    height: 3rem;
+}
+.muangay:hover{
+    background-color: #66afdc;
+}
