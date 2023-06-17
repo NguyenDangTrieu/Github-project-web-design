@@ -3,10 +3,12 @@ body
     font-family:'Times New Roman', Times, serif;
     /* height: 100%; */
     margin: 0;
+    overflow-y: auto;
+
 }
 #middle {
   height: 500px; 
-  overflow-y: auto;
+  width: 100%;
 }
 #header {
     display: flex;
