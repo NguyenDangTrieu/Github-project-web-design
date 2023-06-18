@@ -5,7 +5,7 @@
         case "dép":
             var pageUrl = "/TrangchuDep.html";
             window.location.href = pageUrl;
-            case "giày":
+        case "giày":
             break;
             var pageUrl = "/TrangchuGiay.html";
             window.location.href = pageUrl;
