@@ -1,3 +1,6 @@
+document.getElementById("showcart").style.display = "none";
+
+var giohang = new Array();
 
  function search() {
     var searchQuery = document.querySelector(".box input").value.toLowerCase();
@@ -5,8 +8,8 @@
         case "dép":
             var pageUrl = "/TrangchuDep.html";
             window.location.href = pageUrl;
-        case "giày":
             break;
+        case "giày":
             var pageUrl = "/TrangchuGiay.html";
             window.location.href = pageUrl;
             break;
@@ -29,3 +32,52 @@ function handleKeyPress(event) {
         search();
     }
 }
+
+// gio hang
+
+function themvaogiohang(x) {
+    var detailPd = document.getElementById('detail-pd');
+    var imgSrc = detailPd.querySelector('.detail-pd-pic img').src;
+    var pdName = detailPd.querySelector('.pd-name span').innerText;
+    var sizeInput = detailPd.querySelector('#size-input');
+    var sizeValue = sizeInput.value;
+    var price = detailPd.querySelector('.detail-pd-info h3 span').textContent;
+    var sp = new Array(imgSrc, pdName, sizeValue, price);
+    console.log(giohang);
+    giohang.push(sp);
+    showmycart();
+}
+
+function showmycart()
+{
+    var ttgh ="";
+    var tong = 0
+    for(let i = 0; i< giohang.length;i++)
+    {
+        var tt = parseFloat(giohang[i][3]);
+        tong+=tt;
+        ttgh +='<tr>'+
+        '<td>'+(i+1)+'</td>'+
+        '<td><img src="'+giohang[i][0]+'" alt=""></td>'+
+        '<td>'+giohang[i][1]+'</td>'+
+        '<td>'+giohang[i][2]+'</td>'+
+        '<td>'+giohang[i][3]+'</td>'+
+        '<td>'+tt+'</td>'+
+    '</tr>';
+    }
+    ttgh+='<tr>'+
+    '<td colspan="5">Tổng Đơn Hàng</td>'+
+    '<td class="total">'+tong+'</td>'+
+    '</tr>';
+    document.getElementById("mycart").innerHTML = ttgh;
+}
+function showcart()
+{
+    if(document.getElementById("showcart").style.display ==="none")
+        document.getElementById("showcart").style.display ="block";
+        else document.getElementById("showcart").style.display ="none";
+}
+  
+  
+  
+  

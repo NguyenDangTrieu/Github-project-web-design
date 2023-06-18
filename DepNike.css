@@ -63,28 +63,37 @@ padding-top: 10px;
     border: 1px solid gray;
     transform: scale(1.5);
 }
+/* size */
+.size-selection {
+    margin-bottom: 10px;
+}
+
+.size-selection label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.size-selection input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
 /* .pd-name{
     color: #666;
 } */
-.pd-size{
-    border: 2px solid #ececec;
-    border-radius: 10px;
-    text-align: center ;
-    padding :10px,10px;
-    width:3rem;
-    height: 2rem;
-    
-}
-.pd-size:hover{
-    border-color: #666;
-}
-.themvaogiohang{
+
+.themvaogiohang button{
     background-color: #666666a0;
     border-radius: 25px;
     text-align: center ;
     padding :10px,10px;
     width:10rem;
     height: 3rem;
+}
+.themvaogiohang button:hover{
+    background-color: #b11414a0;
 }
 .muangay{
     background-color: #8ed1fc;
@@ -96,4 +105,50 @@ padding-top: 10px;
 }
 .muangay:hover{
     background-color: #66afdc;
+}
+/* them css gio hang */
+#showcart {
+    position: fixed;
+    border-radius: 10px;
+    right: 80px;
+    top: -5px ;
+    padding: 10px;
+    
+}
+
+#showcart h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#showcart table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #eee;
+}
+
+#showcart th, #showcart td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+#showcart th {
+    background-color: #f2f2f2;
+}
+
+#showcart img {
+    width: 80px;
+    height: 80px;
+}
+
+.total {
+    font-weight: bold;
+}
+/* chinh gio hàng */
+.logo-bag-user{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px;
 }
