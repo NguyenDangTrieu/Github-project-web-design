@@ -1,12 +1,12 @@
 
- function search() {
+function search() {
     var searchQuery = document.querySelector(".box input").value.toLowerCase();
     switch (searchQuery) {
         case "dép":
             var pageUrl = "/TrangchuDep.html";
             window.location.href = pageUrl;
-            case "giày":
             break;
+        case "giày":
             var pageUrl = "/TrangchuGiay.html";
             window.location.href = pageUrl;
             break;
@@ -25,7 +25,7 @@
     
 function handleKeyPress(event) {
     if (event.key === "Enter") {
-    event.preventDefault(); 
-    search();
+        event.preventDefault(); 
+        search();
     }
 }
