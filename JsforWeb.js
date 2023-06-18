@@ -60,14 +60,14 @@ function showmycart()
         '<td>'+(i+1)+'</td>'+
         '<td><img src="'+giohang[i][0]+'" alt=""></td>'+
         '<td>'+giohang[i][1]+'</td>'+
-        '<td>'+giohang[i][2]+'</td>'+
         '<td>'+giohang[i][3]+'</td>'+
+        '<td>'+giohang[i][2]+'</td>'+
         '<td>'+tt+'</td>'+
     '</tr>';
     }
     ttgh+='<tr>'+
     '<td colspan="5">Tổng Đơn Hàng</td>'+
-    '<td class="total">'+tong*1000000+'</td>'+
+    '<td class="total">'+tong+'</td>'+
     '</tr>';
     document.getElementById("mycart").innerHTML = ttgh;
 }
