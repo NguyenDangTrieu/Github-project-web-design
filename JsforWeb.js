@@ -2,7 +2,7 @@ document.getElementById("showcart").style.display = "none";
 
 var giohang = new Array();
 
- function search() {
+function search() {
     var searchQuery = document.querySelector(".box input").value.toLowerCase();
     switch (searchQuery) {
         case "dép":

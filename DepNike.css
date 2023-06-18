@@ -1,8 +1,9 @@
 .container{
     width: 90%;
     margin: 0 auto;
-    padding-top: 50px;
-    min-height: 500px;
+    /* padding-top: 20px; */
+    padding-bottom: 50px;
+    min-height: 600px;
 }
 .w-10
 {
@@ -19,6 +20,7 @@
 #detail-pd
 {
     height: 500px;
+    
 }
 .row{
     --bs-gutter-x:1.5rem;
@@ -29,11 +31,7 @@
     margin-right:calc(-.5 * var(--bs-gutter-x));
     margin-left:calc(-.5 * var(--bs-gutter-x))
 }
-.col-3
-{
-    flex:0 0 auto;
-    width:30%
-}
+
 .pic-size
 {
     width: 16rem;
@@ -43,14 +41,17 @@
 float: left;
 text-align: center;
 padding-top: 10px;
+width: 35rem;
 }
 
 .detail-pd-info{
     width: 35rem;
     float: right;
     text-align: left;
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
+    padding-left: 4rem ;
+    /* padding: 0 2rem; */
 }
 .small-pic-detail
 {
@@ -88,19 +89,14 @@ padding-top: 10px;
     background-color: #666666a0;
     border-radius: 25px;
     text-align: center ;
-    padding :10px,10px;
-    width:10rem;
+    padding :0px 20px;
     height: 3rem;
-}
-.themvaogiohang button:hover{
-    background-color: #b11414a0;
 }
 .muangay{
     background-color: #8ed1fc;
     border-radius: 25px;
     text-align: center ;
-    padding :10px,10px;
-    width:7rem;
+    padding :0px 20px;
     height: 3rem;
 }
 .muangay:hover{
