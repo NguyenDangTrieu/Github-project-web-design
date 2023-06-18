@@ -92,6 +92,9 @@ width: 35rem;
     padding :0px 20px;
     height: 3rem;
 }
+.themvaogiohang button:hover{
+    background-color: #b11414a0;
+}
 .muangay{
     background-color: #8ed1fc;
     border-radius: 25px;

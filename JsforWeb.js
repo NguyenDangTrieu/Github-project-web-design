@@ -54,7 +54,7 @@ function showmycart()
     var tong = 0
     for(let i = 0; i< giohang.length;i++)
     {
-        var tt = parseFloat(giohang[i][3]);
+        var tt = parseFloat(giohang[i][3])*1000000;
         tong+=tt;
         ttgh +='<tr>'+
         '<td>'+(i+1)+'</td>'+
@@ -67,7 +67,7 @@ function showmycart()
     }
     ttgh+='<tr>'+
     '<td colspan="5">Tổng Đơn Hàng</td>'+
-    '<td class="total">'+tong+'</td>'+
+    '<td class="total">'+tong*1000000+'</td>'+
     '</tr>';
     document.getElementById("mycart").innerHTML = ttgh;
 }
