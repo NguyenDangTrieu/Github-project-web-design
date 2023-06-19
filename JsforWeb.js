@@ -67,14 +67,33 @@ function showmycart()
         '<td>'+giohang[i][3]+'</td>'+
         '<td>'+giohang[i][2]+'</td>'+
         '<td>'+tt+'</td>'+
+        '<td><button onclick="xoatr(this)">Xóa</button></td>'+
     '</tr>';
     }
     ttgh+='<tr>'+
     '<td colspan="5">Tổng Đơn Hàng</td>'+
     '<td class="total">'+tong+'</td>'+
+    '<td class="total"></td>'+
     '</tr>';
     document.getElementById("mycart").innerHTML = ttgh;
 }
+
+
+function xoasp(tensp) {
+    for (let i = 0; i < giohang.length; i++) {
+        if (giohang[i][1] === tensp) {
+            giohang.splice(i, 1);
+            break;
+        }
+    }
+    showmycart();
+}
+function xoatr(button) {
+    var row = button.closest('tr'); 
+    row.remove();
+    var tensp = row.querySelector('td:nth-child(3)').textContent; 
+    xoasp(tensp); 
+  }
 function showcart()
 {
     if(document.getElementById("showcart").style.display ==="none")
