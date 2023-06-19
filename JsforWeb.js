@@ -17,8 +17,12 @@ function search() {
             var pageUrl = "/TrangchuKinh.html";
             window.location.href = pageUrl;
             break;
-        case "giày":
+        case "phụ kiện":
             var pageUrl = "/TrangchuPhuKien.html";
+            window.location.href = pageUrl;
+            break;
+        case "clean":
+            var pageUrl ="/TrangchuSneakerClean.html";
             window.location.href = pageUrl;
             break;
         default:
